@@ -1,14 +1,9 @@
-import image from "./image.png";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={image} className="App-image" alt="image" />
-      </header>
+      <header className="App-header"></header>
     </div>
   );
 }
-
-export default App;
